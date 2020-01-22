@@ -1,2 +1,2 @@
 # Leaflet Challenge
-Used D3 to load the json data for all the earth quakes in the past day from [usgs](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson).
+Used D3 to load the json data for all the earthquakes in the past day from [usgs](https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_day.geojson). Then used leaflet to plot the earthquakes based on their latitude and longitude. The size and color of the markers is determinded by the magnitude of the earthquake. A pop up apears for each marker when it is clicked on to provide further information on the earthquake. Finally there is a legend in the bottom corner.
